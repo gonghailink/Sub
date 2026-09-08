@@ -6,24 +6,36 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe"
+        "🇨🇾 CY 01 - 公海节点",
+        "🇨🇾 CY 02 - 公海节点",
+        "🇨🇾 CY 03 - 公海节点",
+        "🇨🇾 CY 04 - 公海节点",
+        "🇨🇾 CY 05 - 公海节点",
+        "🇨🇾 CY 06 - 公海节点",
+        "🇨🇾 CY 07 - 公海节点",
+        "🇨🇾 CY 08 - 公海节点",
+        "🇨🇾 CY 09 - 公海节点",
+        "🇨🇾 CY 10 - 公海节点",
+        "🇨🇾 CY 11 - 公海节点",
+        "🇨🇾 CY 12 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe"
+        "🇨🇾 CY 01 - 公海节点",
+        "🇨🇾 CY 02 - 公海节点",
+        "🇨🇾 CY 03 - 公海节点",
+        "🇨🇾 CY 04 - 公海节点",
+        "🇨🇾 CY 05 - 公海节点",
+        "🇨🇾 CY 06 - 公海节点",
+        "🇨🇾 CY 07 - 公海节点",
+        "🇨🇾 CY 08 - 公海节点",
+        "🇨🇾 CY 09 - 公海节点",
+        "🇨🇾 CY 10 - 公海节点",
+        "🇨🇾 CY 11 - 公海节点",
+        "🇨🇾 CY 12 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },

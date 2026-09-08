@@ -6,18 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - 公海节点",
+        "🇿🇦 ZA 02 - 公海节点",
+        "🇿🇦 ZA 03 - 公海节点",
+        "🇿🇦 ZA 04 - 公海节点",
+        "🇿🇦 ZA 05 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - 公海节点",
+        "🇿🇦 ZA 02 - 公海节点",
+        "🇿🇦 ZA 03 - 公海节点",
+        "🇿🇦 ZA 04 - 公海节点",
+        "🇿🇦 ZA 05 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },

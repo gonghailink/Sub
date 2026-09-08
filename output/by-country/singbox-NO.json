@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - xiaohe",
-        "🇳🇴 NO 02 - xiaohe"
+        "🇳🇴 NO 01 - 公海节点",
+        "🇳🇴 NO 02 - 公海节点",
+        "🇳🇴 NO 03 - 公海节点",
+        "🇳🇴 NO 04 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe",
-        "🇳🇴 NO 02 - xiaohe"
+        "🇳🇴 NO 01 - 公海节点",
+        "🇳🇴 NO 02 - 公海节点",
+        "🇳🇴 NO 03 - 公海节点",
+        "🇳🇴 NO 04 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
