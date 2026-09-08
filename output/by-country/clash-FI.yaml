@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 公海节点
   type: vless
-  server: 151.101.56.6
+  server: k2.cloud--vpn.site
   port: 443
   uuid: f54c98ce-ac44-4984-db61-ccca1fdbbf72
   udp: true
@@ -15,7 +15,7 @@ proxies:
   servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+    path: /
     headers:
       Host: c12.com
 - name: 🇫🇮 FI 02 - 公海节点
@@ -44,20 +44,6 @@ proxies:
     public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
   servername: www.samsung.com
   client-fingerprint: chrome
-- name: 🇫🇮 FI 04 - 公海节点
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: f54c98ce-ac44-4984-db61-ccca1fdbbf72
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /?CHANNEL---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx
-    headers:
-      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +52,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - 公海节点
   - 🇫🇮 FI 02 - 公海节点
   - 🇫🇮 FI 03 - 公海节点
-  - 🇫🇮 FI 04 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,6 +60,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - 公海节点
   - 🇫🇮 FI 02 - 公海节点
   - 🇫🇮 FI 03 - 公海节点
-  - 🇫🇮 FI 04 - 公海节点
 rules:
 - MATCH,PROXIES
