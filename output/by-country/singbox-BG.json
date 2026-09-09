@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - 公海节点"
+        "🇧🇬 BG 01 - 公海节点",
+        "🇧🇬 BG 02 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - 公海节点"
+        "🇧🇬 BG 01 - 公海节点",
+        "🇧🇬 BG 02 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
