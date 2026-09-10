@@ -20,24 +20,10 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 03 - 公海节点
   type: ss
-  server: 20.164.211.25
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
-  udp: true
-- name: 🇿🇦 ZA 04 - 公海节点
-  type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: tfAcRikawhNoZAhu
-  udp: true
-- name: 🇿🇦 ZA 05 - 公海节点
-  type: ss
-  server: 20.164.211.25
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -47,8 +33,6 @@ proxy-groups:
   - 🇿🇦 ZA 01 - 公海节点
   - 🇿🇦 ZA 02 - 公海节点
   - 🇿🇦 ZA 03 - 公海节点
-  - 🇿🇦 ZA 04 - 公海节点
-  - 🇿🇦 ZA 05 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,7 +41,5 @@ proxy-groups:
   - 🇿🇦 ZA 01 - 公海节点
   - 🇿🇦 ZA 02 - 公海节点
   - 🇿🇦 ZA 03 - 公海节点
-  - 🇿🇦 ZA 04 - 公海节点
-  - 🇿🇦 ZA 05 - 公海节点
 rules:
 - MATCH,PROXIES
