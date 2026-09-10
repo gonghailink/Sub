@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - 公海节点",
-        "🇹🇭 TH 02 - 公海节点",
-        "🇹🇭 TH 03 - 公海节点",
-        "🇹🇭 TH 04 - 公海节点",
-        "🇹🇭 TH 05 - 公海节点"
+        "🇹🇭 TH 01 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - 公海节点",
-        "🇹🇭 TH 02 - 公海节点",
-        "🇹🇭 TH 03 - 公海节点",
-        "🇹🇭 TH 04 - 公海节点",
-        "🇹🇭 TH 05 - 公海节点"
+        "🇹🇭 TH 01 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
