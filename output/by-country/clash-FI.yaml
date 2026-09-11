@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 公海节点
   type: vless
+  server: 172.64.52.60
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 02 - 公海节点
+  type: vless
   server: 151.101.56.6
   port: 443
   uuid: d9eda159-18d6-4457-8983-55523a21658c
@@ -15,26 +29,12 @@ proxies:
   servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr--@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 02 - 公海节点
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
+    path: /?TELEGRAM---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx---madshopx
     headers:
       Host: c12.com
 - name: 🇫🇮 FI 03 - 公海节点
   type: vless
-  server: 172.64.53.140
+  server: 172.64.146.211
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -48,48 +48,49 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 04 - 公海节点
   type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 151.101.56.6
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 05 - 公海节点
-  type: vless
-  server: 172.64.53.194
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 06 - 公海节点
-  type: vless
-  server: italic.dearhossein-taktaz.ir
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: italic.dearhossein-taktaz.ir
+      Host: c12.com
+- name: 🇫🇮 FI 05 - 公海节点
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: d9eda159-18d6-4457-8983-55523a21658c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--BYA--CHANEL---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr--@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 06 - 公海节点
+  type: vless
+  server: 104.16.150.130
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 07 - 公海节点
   type: vless
-  server: 172.64.53.215
+  server: 172.64.147.104
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -103,7 +104,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 08 - 公海节点
   type: vless
-  server: 172.64.52.60
+  server: 172.64.52.175
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -117,7 +118,7 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 09 - 公海节点
   type: vless
-  server: 172.64.52.68
+  server: 104.18.42.54
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -131,17 +132,32 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 10 - 公海节点
   type: vless
-  server: italic.dearhossein-taktaz.ir
-  port: 8080
-  uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
+  server: 172.64.53.140
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   network: ws
   ws-opts:
-    path: /
+    path: ?ed=2560
     headers:
-      Host: italic.dearhossein-taktaz.ir
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 11 - 公海节点
+  type: vless
+  server: 172.64.53.74
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -157,6 +173,7 @@ proxy-groups:
   - 🇫🇮 FI 08 - 公海节点
   - 🇫🇮 FI 09 - 公海节点
   - 🇫🇮 FI 10 - 公海节点
+  - 🇫🇮 FI 11 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -172,5 +189,6 @@ proxy-groups:
   - 🇫🇮 FI 08 - 公海节点
   - 🇫🇮 FI 09 - 公海节点
   - 🇫🇮 FI 10 - 公海节点
+  - 🇫🇮 FI 11 - 公海节点
 rules:
 - MATCH,PROXIES
