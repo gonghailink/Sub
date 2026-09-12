@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 公海节点
   type: vless
-  server: a2.arshia-nova.ir
+  server: 151.101.56.6
   port: 443
   uuid: cc4a473a-2e15-4fc6-ec54-47c3aa5cec09
   udp: true
