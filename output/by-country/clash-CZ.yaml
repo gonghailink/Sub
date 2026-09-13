@@ -6,9 +6,37 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - 公海节点
   type: vless
-  server: 103.169.142.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 02 - 公海节点
+  type: vless
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇨🇿 CZ 03 - 公海节点
+  type: vless
+  server: 104.18.47.113
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
@@ -16,35 +44,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime38.workers.dev
-- name: 🇨🇿 CZ 02 - 公海节点
-  type: vless
-  server: 104.21.45.213
-  port: 443
-  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ez-541f9d.ezaccess1d3db24.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: ez-541f9d.ezaccess1d3db24.workers.dev
-- name: 🇨🇿 CZ 03 - 公海节点
-  type: vless
-  server: 109.176.239.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: notls.lukongtou.eu.org
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
