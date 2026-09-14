@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇺 HU 01 - 公海节点"
+        "🇰🇿 KZ 01 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 HU 01 - 公海节点"
+        "🇰🇿 KZ 01 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
