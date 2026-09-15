@@ -18,22 +18,40 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.pubgmobile.com
+      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - 公海节点
-  type: vless
-  server: www.wto.org
+  type: vmess
+  server: www.shopify.com
   port: 443
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk.152568.xyz
+  servername: yoga-suggesting-recording-calls.trycloudflare.com
   network: ws
   ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
+    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
     headers:
-      Host: hk.152568.xyz
+      Host: yoga-suggesting-recording-calls.trycloudflare.com
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - 公海节点
+  type: vmess
+  server: 47.242.79.198
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - 公海节点
   type: vmess
   server: 47.86.107.119
   port: 443
@@ -49,9 +67,9 @@ proxies:
     path: /ws-vmess
     headers:
       Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - 公海节点
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - 公海节点
   type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -59,12 +77,44 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - 公海节点
+  type: vmess
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - 公海节点
+  type: vmess
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,6 +124,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 02 - 公海节点
   - 🇭🇰 中国香港 (Hong Kong) 03 - 公海节点
   - 🇭🇰 中国香港 (Hong Kong) 04 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 05 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 06 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 07 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -83,5 +136,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 02 - 公海节点
   - 🇭🇰 中国香港 (Hong Kong) 03 - 公海节点
   - 🇭🇰 中国香港 (Hong Kong) 04 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 05 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 06 - 公海节点
+  - 🇭🇰 中国香港 (Hong Kong) 07 - 公海节点
 rules:
 - MATCH,PROXIES
