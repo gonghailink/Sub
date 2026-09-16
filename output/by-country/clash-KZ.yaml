@@ -4,25 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇭 TH 01 - 公海节点
+- name: 🇰🇿 KZ 01 - 公海节点
   type: vless
-  server: 43.133.110.81
+  server: kz3.zuoai.cf
   port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇹🇭 TH 02 - 公海节点
+      Host: xi.tbv.ccwu.cc
+- name: 🇰🇿 KZ 02 - 公海节点
   type: vmess
-  server: 118.193.57.167
-  port: 49667
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
+  server: 3h-kazakhstan1.09vpn.com
+  port: 80
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
   cipher: auto
   udp: true
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /d46bf492
+    path: /vmess/
     headers:
       Host: ''
 proxy-groups:
@@ -38,14 +38,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇹🇭 TH 01 - 公海节点
-  - 🇹🇭 TH 02 - 公海节点
+  - 🇰🇿 KZ 01 - 公海节点
+  - 🇰🇿 KZ 02 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇭 TH 01 - 公海节点
-  - 🇹🇭 TH 02 - 公海节点
+  - 🇰🇿 KZ 01 - 公海节点
+  - 🇰🇿 KZ 02 - 公海节点
 rules:
 - MATCH,PROXIES
