@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - 公海节点",
-        "🇨🇭 CH 02 - 公海节点",
-        "🇨🇭 CH 03 - 公海节点"
+        "🇰🇿 KZ 01 - 公海节点",
+        "🇰🇿 KZ 02 - 公海节点",
+        "🇰🇿 KZ 03 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - 公海节点",
-        "🇨🇭 CH 02 - 公海节点",
-        "🇨🇭 CH 03 - 公海节点"
+        "🇰🇿 KZ 01 - 公海节点",
+        "🇰🇿 KZ 02 - 公海节点",
+        "🇰🇿 KZ 03 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 PL 01 - 公海节点
+- name: 🇹🇷 土耳其 (Turkey) 01 - 公海节点
   type: ss
-  server: 194.61.121.93
-  port: 7538
+  server: 206.1.97.61
+  port: 13323
   cipher: chacha20-ietf-poly1305
-  password: U9YAoqBgg5VyGBc6vQv1sN
+  password: XyodFtypR0xCFHyWW9gxqp15oU78njiX
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 PL 01 - 公海节点
+  - 🇹🇷 土耳其 (Turkey) 01 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 PL 01 - 公海节点
+  - 🇹🇷 土耳其 (Turkey) 01 - 公海节点
 rules:
 - MATCH,PROXIES
