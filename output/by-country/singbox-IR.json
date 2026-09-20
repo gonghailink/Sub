@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - 公海节点",
-        "🇮🇪 IE 02 - 公海节点",
-        "🇮🇪 IE 03 - 公海节点"
+        "🇮🇷 IR 01 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - 公海节点",
-        "🇮🇪 IE 02 - 公海节点",
-        "🇮🇪 IE 03 - 公海节点"
+        "🇮🇷 IR 01 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
