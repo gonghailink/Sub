@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - 公海节点
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -19,16 +19,17 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - 公海节点
   type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - 公海节点
   type: vless
   server: uae.unixzone.us
@@ -46,7 +47,7 @@ proxies:
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 32088840-4c1e-44af-958f-b7b552aeb919
+  uuid: 1e3b5752-e720-4347-b8e9-384697d0ce38
   udp: true
   tls: true
   skip-cert-verify: true
@@ -56,7 +57,19 @@ proxies:
   client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 05 - 公海节点
   type: vless
-  server: uae.unixzone.us
+  server: 31.58.181.88
+  port: 8443
+  uuid: 0cfc5fac-1d0d-4d66-a099-5f6802d3243b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - 公海节点
+  type: vless
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -67,7 +80,7 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - 公海节点
+- name: 🇦🇪 阿联酋 (UAE) 07 - 公海节点
   type: vless
   server: uae.unixzone.us
   port: 22573
@@ -80,6 +93,57 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 08 - 公海节点
+  type: vless
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /snob-ws
+    headers:
+      Host: cdn.snobvpn.online
+- name: 🇦🇪 阿联酋 (UAE) 09 - 公海节点
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 10 - 公海节点
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 11 - 公海节点
+  type: vless
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /snob-ws
+    headers:
+      Host: cdn.snobvpn.online
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,6 +155,11 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - 公海节点
   - 🇦🇪 阿联酋 (UAE) 05 - 公海节点
   - 🇦🇪 阿联酋 (UAE) 06 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 07 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 08 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 09 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 10 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 11 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -102,5 +171,10 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - 公海节点
   - 🇦🇪 阿联酋 (UAE) 05 - 公海节点
   - 🇦🇪 阿联酋 (UAE) 06 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 07 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 08 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 09 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 10 - 公海节点
+  - 🇦🇪 阿联酋 (UAE) 11 - 公海节点
 rules:
 - MATCH,PROXIES
