@@ -6,117 +6,19 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 公海节点
   type: vless
-  server: 212.104.128.45
+  server: 151.101.56.7
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: global.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: kayko.global.ssl.fastly.net
 - name: 🇫🇮 FI 02 - 公海节点
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 03 - 公海节点
-  type: vless
-  server: 212.104.128.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 04 - 公海节点
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 05 - 公海节点
-  type: vless
-  server: 212.104.128.217
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 06 - 公海节点
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 07 - 公海节点
-  type: vless
-  server: 212.104.128.244
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 08 - 公海节点
-  type: vless
-  server: 212.104.128.244
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 09 - 公海节点
   type: vless
   server: k2.cloud--vpn.site
   port: 443
@@ -130,21 +32,49 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 10 - 公海节点
+- name: 🇫🇮 FI 03 - 公海节点
   type: vless
-  server: 212.104.128.217
+  server: 151.101.56.6
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /?
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 04 - 公海节点
+  type: vless
+  server: 104.18.38.47
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇫🇮 FI 05 - 公海节点
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 11 - 公海节点
+      Host: c12.com
+- name: 🇫🇮 FI 06 - 公海节点
   type: vless
   server: 31.76.80.230
   port: 8443
@@ -158,245 +88,7 @@ proxies:
     path: /assets
     headers:
       Host: 31.76.80.230
-- name: 🇫🇮 FI 12 - 公海节点
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 13 - 公海节点
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 14 - 公海节点
-  type: vless
-  server: 212.104.128.0
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 15 - 公海节点
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 16 - 公海节点
-  type: vless
-  server: 212.104.128.206
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 17 - 公海节点
-  type: vless
-  server: 212.104.128.139
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 18 - 公海节点
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 19 - 公海节点
-  type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 20 - 公海节点
-  type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 21 - 公海节点
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 22 - 公海节点
-  type: vless
-  server: 212.104.128.206
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 23 - 公海节点
-  type: vless
-  server: 31.76.80.230
-  port: 8443
-  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fin.luxes.network
-  network: ws
-  ws-opts:
-    path: /assets
-    headers:
-      Host: 31.76.80.230
-- name: 🇫🇮 FI 24 - 公海节点
-  type: vless
-  server: 212.104.128.217
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 25 - 公海节点
-  type: vless
-  server: 212.104.128.0
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 26 - 公海节点
-  type: vless
-  server: 212.104.128.139
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 27 - 公海节点
-  type: vless
-  server: 212.104.128.27
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 28 - 公海节点
-  type: vless
-  server: 212.104.128.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 29 - 公海节点
+- name: 🇫🇮 FI 07 - 公海节点
   type: vless
   server: 31.76.80.230
   port: 8443
@@ -422,28 +114,6 @@ proxy-groups:
   - 🇫🇮 FI 05 - 公海节点
   - 🇫🇮 FI 06 - 公海节点
   - 🇫🇮 FI 07 - 公海节点
-  - 🇫🇮 FI 08 - 公海节点
-  - 🇫🇮 FI 09 - 公海节点
-  - 🇫🇮 FI 10 - 公海节点
-  - 🇫🇮 FI 11 - 公海节点
-  - 🇫🇮 FI 12 - 公海节点
-  - 🇫🇮 FI 13 - 公海节点
-  - 🇫🇮 FI 14 - 公海节点
-  - 🇫🇮 FI 15 - 公海节点
-  - 🇫🇮 FI 16 - 公海节点
-  - 🇫🇮 FI 17 - 公海节点
-  - 🇫🇮 FI 18 - 公海节点
-  - 🇫🇮 FI 19 - 公海节点
-  - 🇫🇮 FI 20 - 公海节点
-  - 🇫🇮 FI 21 - 公海节点
-  - 🇫🇮 FI 22 - 公海节点
-  - 🇫🇮 FI 23 - 公海节点
-  - 🇫🇮 FI 24 - 公海节点
-  - 🇫🇮 FI 25 - 公海节点
-  - 🇫🇮 FI 26 - 公海节点
-  - 🇫🇮 FI 27 - 公海节点
-  - 🇫🇮 FI 28 - 公海节点
-  - 🇫🇮 FI 29 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -456,27 +126,5 @@ proxy-groups:
   - 🇫🇮 FI 05 - 公海节点
   - 🇫🇮 FI 06 - 公海节点
   - 🇫🇮 FI 07 - 公海节点
-  - 🇫🇮 FI 08 - 公海节点
-  - 🇫🇮 FI 09 - 公海节点
-  - 🇫🇮 FI 10 - 公海节点
-  - 🇫🇮 FI 11 - 公海节点
-  - 🇫🇮 FI 12 - 公海节点
-  - 🇫🇮 FI 13 - 公海节点
-  - 🇫🇮 FI 14 - 公海节点
-  - 🇫🇮 FI 15 - 公海节点
-  - 🇫🇮 FI 16 - 公海节点
-  - 🇫🇮 FI 17 - 公海节点
-  - 🇫🇮 FI 18 - 公海节点
-  - 🇫🇮 FI 19 - 公海节点
-  - 🇫🇮 FI 20 - 公海节点
-  - 🇫🇮 FI 21 - 公海节点
-  - 🇫🇮 FI 22 - 公海节点
-  - 🇫🇮 FI 23 - 公海节点
-  - 🇫🇮 FI 24 - 公海节点
-  - 🇫🇮 FI 25 - 公海节点
-  - 🇫🇮 FI 26 - 公海节点
-  - 🇫🇮 FI 27 - 公海节点
-  - 🇫🇮 FI 28 - 公海节点
-  - 🇫🇮 FI 29 - 公海节点
 rules:
 - MATCH,PROXIES
