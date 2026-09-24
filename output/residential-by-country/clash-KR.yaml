@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇩 MD 01 - 公海节点
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - 公海节点
   type: vless
-  server: 143.246.219.51
-  port: 8081
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  server: 104.20.28.74
+  port: 8880
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless-test
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: 143.246.219.51
+      Host: flat-fire-40ed.96-042.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇩 MD 01 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇩 MD 01 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - 公海节点
 rules:
 - MATCH,PROXIES
