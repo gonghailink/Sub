@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - 公海节点",
-        "🇺🇿 UZ 02 - 公海节点",
-        "🇺🇿 UZ 03 - 公海节点"
+        "🇦🇺 澳大利亚 (Australia) 01 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - 公海节点",
-        "🇺🇿 UZ 02 - 公海节点",
-        "🇺🇿 UZ 03 - 公海节点"
+        "🇦🇺 澳大利亚 (Australia) 01 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
