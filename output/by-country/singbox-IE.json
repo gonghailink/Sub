@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇷 法国 (France) 01 (家宽) - 公海节点"
+        "🇮🇪 IE 01 - 公海节点",
+        "🇮🇪 IE 02 - 公海节点",
+        "🇮🇪 IE 03 - 公海节点",
+        "🇮🇪 IE 04 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇷 法国 (France) 01 (家宽) - 公海节点"
+        "🇮🇪 IE 01 - 公海节点",
+        "🇮🇪 IE 02 - 公海节点",
+        "🇮🇪 IE 03 - 公海节点",
+        "🇮🇪 IE 04 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
