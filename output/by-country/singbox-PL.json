@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - 公海节点"
+        "🇵🇱 PL 01 - 公海节点",
+        "🇵🇱 PL 02 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - 公海节点"
+        "🇵🇱 PL 01 - 公海节点",
+        "🇵🇱 PL 02 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
