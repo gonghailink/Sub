@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - 公海节点",
-        "🇫🇮 FI 02 - 公海节点",
-        "🇫🇮 FI 03 - 公海节点"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - 公海节点",
-        "🇫🇮 FI 02 - 公海节点",
-        "🇫🇮 FI 03 - 公海节点"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
