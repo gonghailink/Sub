@@ -7,42 +7,11 @@ proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - 公海节点
   type: ss
   server: 141.164.45.187
-  port: 5498
+  port: 9101
   cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
+  password: e4FCWrgpkji3QY
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 02 - 公海节点
-  type: ss
-  server: 211.174.113.172
-  port: 49642
-  cipher: aes-256-gcm
-  password: ac9c0a7b
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 03 - 公海节点
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 04 - 公海节点
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 05 - 公海节点
   type: vmess
   server: 140.238.2.250
   port: 443
@@ -52,7 +21,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 06 - 公海节点
+- name: 🇰🇷 韩国 (South Korea) 03 - 公海节点
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -67,7 +36,83 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: None
+- name: 🇰🇷 韩国 (South Korea) 04 - 公海节点
+  type: vless
+  server: 172.67.69.129
+  port: 8880
+  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shiny-flower-c72d.105-161.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 05 - 公海节点
+  type: ss
+  server: 141.164.45.187
+  port: 9090
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 06 - 公海节点
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 07 - 公海节点
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 08 - 公海节点
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 09 - 公海节点
+  type: ss
+  server: ce1fc2d8.krkt.hkssip.com
+  port: 49642
+  cipher: aes-256-gcm
+  password: ac9c0a7b
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 10 - 公海节点
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
+- name: 🇰🇷 韩国 (South Korea) 11 - 公海节点
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -82,7 +127,7 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 08 - 公海节点
+- name: 🇰🇷 韩国 (South Korea) 12 - 公海节点
   type: vmess
   server: 140.238.2.250
   port: 443
@@ -92,7 +137,20 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 09 - 公海节点
+- name: 🇰🇷 韩国 (South Korea) 13 - 公海节点
+  type: vless
+  server: log.bpminecraft.com
+  port: 8880
+  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: red-unit-60bc.165-1dd.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 14 - 公海节点
   type: vmess
   server: 140.238.2.250
   port: 443
@@ -102,23 +160,39 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 10 - 公海节点
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 15 - 公海节点
+  type: vless
+  server: 172.66.170.53
+  port: 8880
+  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 11 - 公海节点
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: summer-hat-ba5c.430.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 16 - 公海节点
   type: ss
   server: 141.164.45.187
-  port: 9090
+  port: 5498
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: lGqs95QkFHo2NV
   udp: true
+- name: 🇰🇷 韩国 (South Korea) 17 - 公海节点
+  type: vless
+  server: 172.64.88.251
+  port: 8880
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: patient-cake-39c7.44-e7a.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -135,6 +209,12 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 09 - 公海节点
   - 🇰🇷 韩国 (South Korea) 10 - 公海节点
   - 🇰🇷 韩国 (South Korea) 11 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 12 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 13 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 14 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 15 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 16 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 17 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,5 +231,11 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 09 - 公海节点
   - 🇰🇷 韩国 (South Korea) 10 - 公海节点
   - 🇰🇷 韩国 (South Korea) 11 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 12 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 13 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 14 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 15 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 16 - 公海节点
+  - 🇰🇷 韩国 (South Korea) 17 - 公海节点
 rules:
 - MATCH,PROXIES
