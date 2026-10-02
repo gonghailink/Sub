@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 FI 01 - 公海节点
+- name: 🇰🇿 KZ 01 - 公海节点
   type: vless
-  server: 146.185.143.174
-  port: 443
-  uuid: 22fa3629-21b7-4904-b800-db850decb620
+  server: 89.218.15.90
+  port: 10002
+  uuid: 392fcc7e-b995-11f1-a6b7-1b2272a86bd5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fin.vip98.cfd
+  servername: kz1.vpnjantit.com
   network: ws
   ws-opts:
-    path: /
+    path: /vpnjantit
     headers:
-      Host: fin.vip98.cfd
+      Host: kz1.vpnjantit.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 FI 01 - 公海节点
+  - 🇰🇿 KZ 01 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 FI 01 - 公海节点
+  - 🇰🇿 KZ 01 - 公海节点
 rules:
 - MATCH,PROXIES
