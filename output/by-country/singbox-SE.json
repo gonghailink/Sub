@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - 公海节点"
+        "🇸🇪 SE 01 - 公海节点",
+        "🇸🇪 SE 02 - 公海节点",
+        "🇸🇪 SE 03 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - 公海节点"
+        "🇸🇪 SE 01 - 公海节点",
+        "🇸🇪 SE 02 - 公海节点",
+        "🇸🇪 SE 03 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
