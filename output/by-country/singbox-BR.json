@@ -6,16 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇬🇪 GE 01 - 公海节点",
-        "🇬🇪 GE 02 - 公海节点"
+        "🇧🇷 BR 01 - 公海节点",
+        "🇧🇷 BR 02 - 公海节点",
+        "🇧🇷 BR 03 - 公海节点",
+        "🇧🇷 BR 04 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇪 GE 01 - 公海节点",
-        "🇬🇪 GE 02 - 公海节点"
+        "🇧🇷 BR 01 - 公海节点",
+        "🇧🇷 BR 02 - 公海节点",
+        "🇧🇷 BR 03 - 公海节点",
+        "🇧🇷 BR 04 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
