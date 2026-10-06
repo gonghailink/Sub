@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - 公海节点"
+        "🇧🇾 BY 01 - 公海节点",
+        "🇧🇾 BY 02 - 公海节点",
+        "🇧🇾 BY 03 - 公海节点"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - 公海节点"
+        "🇧🇾 BY 01 - 公海节点",
+        "🇧🇾 BY 02 - 公海节点",
+        "🇧🇾 BY 03 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
