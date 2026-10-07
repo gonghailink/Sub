@@ -4,24 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇴🇲 OM 01 - 公海节点
-  type: ss
-  server: w7k2mf.5tencent.asia
-  port: 35016
-  cipher: aes-128-gcm
-  password: 6ee847c4-04ef-4786-9720-eb6f73fbd80b
+- name: 🇨🇳 CN 01 - 公海节点
+  type: vless
+  server: jp.sofast.live
+  port: 52683
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
   udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇴🇲 OM 01 - 公海节点
+  - 🇨🇳 CN 01 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇴🇲 OM 01 - 公海节点
+  - 🇨🇳 CN 01 - 公海节点
 rules:
 - MATCH,PROXIES
