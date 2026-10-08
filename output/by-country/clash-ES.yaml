@@ -6,55 +6,22 @@ log-level: info
 proxies:
 - name: 🇪🇸 西班牙 (Spain) 01 - 公海节点
   type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 02 - 公海节点
-  type: ss
   server: 108.181.121.226
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: WSyL4XTwNsdv
   udp: true
-- name: 🇪🇸 西班牙 (Spain) 03 - 公海节点
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 04 - 公海节点
-  type: vless
-  server: 104.18.37.228
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime29.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇪🇸 西班牙 (Spain) 01 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 02 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 03 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 04 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇪🇸 西班牙 (Spain) 01 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 02 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 03 - 公海节点
-  - 🇪🇸 西班牙 (Spain) 04 - 公海节点
 rules:
 - MATCH,PROXIES
