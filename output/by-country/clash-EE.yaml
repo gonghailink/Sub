@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - 公海节点
   type: vless
+  server: 77.72.85.247
+  port: 8443
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fdghyt.com
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: fdghyt.com
+- name: 🇪🇪 EE 02 - 公海节点
+  type: vless
   server: 94.183.170.135
   port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
@@ -13,20 +27,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 02 - 公海节点
-  type: vless
-  server: 153.56.171.216
-  port: 443
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: x.m-90.xyz
-  network: ws
-  ws-opts:
-    path: t.me/TEAMNETGRATISCOL
-    headers:
-      Host: x.m-90.xyz
 - name: 🇪🇪 EE 03 - 公海节点
   type: vless
   server: 77.72.85.247
@@ -57,69 +57,18 @@ proxies:
       Host: fdghyt.com
 - name: 🇪🇪 EE 05 - 公海节点
   type: vless
-  server: 77.72.85.247
-  port: 8443
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  server: 94.183.170.135
+  port: 443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: fdghyt.com
   network: ws
   ws-opts:
-    path: /vpn-wss/fluxor/59011/
+    path: /
     headers:
-      Host: fdghyt.com
+      Host: 94.183.170.135
 - name: 🇪🇪 EE 06 - 公海节点
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 07 - 公海节点
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 08 - 公海节点
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 09 - 公海节点
-  type: vless
-  server: 77.72.85.246
-  port: 8443
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fdghyt.com
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: fdghyt.com
-- name: 🇪🇪 EE 10 - 公海节点
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 11 - 公海节点
   type: vless
   server: 94.183.170.135
   port: 443
@@ -132,31 +81,9 @@ proxies:
     path: /
     headers:
       Host: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 12 - 公海节点
+- name: 🇪🇪 EE 07 - 公海节点
   type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 13 - 公海节点
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 14 - 公海节点
-  type: vless
-  server: 77.72.85.247
+  server: 77.72.85.246
   port: 8443
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   udp: true
@@ -168,9 +95,23 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: fdghyt.com
-- name: 🇪🇪 EE 15 - 公海节点
+- name: 🇪🇪 EE 08 - 公海节点
   type: vless
   server: 77.72.85.246
+  port: 8443
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fdghyt.com
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: fdghyt.com
+- name: 🇪🇪 EE 09 - 公海节点
+  type: vless
+  server: 77.72.85.247
   port: 8443
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   udp: true
@@ -196,12 +137,6 @@ proxy-groups:
   - 🇪🇪 EE 07 - 公海节点
   - 🇪🇪 EE 08 - 公海节点
   - 🇪🇪 EE 09 - 公海节点
-  - 🇪🇪 EE 10 - 公海节点
-  - 🇪🇪 EE 11 - 公海节点
-  - 🇪🇪 EE 12 - 公海节点
-  - 🇪🇪 EE 13 - 公海节点
-  - 🇪🇪 EE 14 - 公海节点
-  - 🇪🇪 EE 15 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -216,11 +151,5 @@ proxy-groups:
   - 🇪🇪 EE 07 - 公海节点
   - 🇪🇪 EE 08 - 公海节点
   - 🇪🇪 EE 09 - 公海节点
-  - 🇪🇪 EE 10 - 公海节点
-  - 🇪🇪 EE 11 - 公海节点
-  - 🇪🇪 EE 12 - 公海节点
-  - 🇪🇪 EE 13 - 公海节点
-  - 🇪🇪 EE 14 - 公海节点
-  - 🇪🇪 EE 15 - 公海节点
 rules:
 - MATCH,PROXIES
