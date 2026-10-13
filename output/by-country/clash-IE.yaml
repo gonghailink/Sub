@@ -5,6 +5,27 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - 公海节点
+  type: ss
+  server: 20.234.97.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: K5sEvZiKmens104B
+  udp: true
+- name: 🇮🇪 IE 02 - 公海节点
+  type: ss
+  server: 20.234.97.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: K5sEvZiKmens104B
+  udp: true
+- name: 🇮🇪 IE 03 - 公海节点
+  type: ss
+  server: 20.234.97.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: GayYa2V7pUbJBfKu
+  udp: true
+- name: 🇮🇪 IE 04 - 公海节点
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -18,20 +39,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 02 - 公海节点
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
-- name: 🇮🇪 IE 03 - 公海节点
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,6 +47,7 @@ proxy-groups:
   - 🇮🇪 IE 01 - 公海节点
   - 🇮🇪 IE 02 - 公海节点
   - 🇮🇪 IE 03 - 公海节点
+  - 🇮🇪 IE 04 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -48,5 +56,6 @@ proxy-groups:
   - 🇮🇪 IE 01 - 公海节点
   - 🇮🇪 IE 02 - 公海节点
   - 🇮🇪 IE 03 - 公海节点
+  - 🇮🇪 IE 04 - 公海节点
 rules:
 - MATCH,PROXIES
