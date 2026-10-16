@@ -6,31 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇾 CY 01 - 公海节点
   type: vless
-  server: www.csgo.net
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  server: 5.253.29.254
+  port: 14430
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: openapi.next-ai.us.ci
+      Host: 5.253.29.254
 - name: 🇨🇾 CY 02 - 公海节点
-  type: vless
-  server: www.csgo.net
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: openapi.next-ai.us.ci
-- name: 🇨🇾 CY 03 - 公海节点
   type: vless
   server: 5.253.29.254
   port: 14430
@@ -43,6 +30,14 @@ proxies:
     path: /vless
     headers:
       Host: 5.253.29.254
+- name: 🇨🇾 CY 03 - 公海节点
+  type: vless
+  server: 5.253.29.254
+  port: 10443
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇾 CY 04 - 公海节点
   type: vless
   server: 5.253.29.254
@@ -56,6 +51,27 @@ proxies:
     path: /vless
     headers:
       Host: 5.253.29.254
+- name: 🇨🇾 CY 05 - 公海节点
+  type: vless
+  server: 5.253.29.254
+  port: 14430
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.253.29.254
+- name: 🇨🇾 CY 06 - 公海节点
+  type: vless
+  server: 5.253.29.254
+  port: 10443
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -65,6 +81,8 @@ proxy-groups:
   - 🇨🇾 CY 02 - 公海节点
   - 🇨🇾 CY 03 - 公海节点
   - 🇨🇾 CY 04 - 公海节点
+  - 🇨🇾 CY 05 - 公海节点
+  - 🇨🇾 CY 06 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -74,5 +92,7 @@ proxy-groups:
   - 🇨🇾 CY 02 - 公海节点
   - 🇨🇾 CY 03 - 公海节点
   - 🇨🇾 CY 04 - 公海节点
+  - 🇨🇾 CY 05 - 公海节点
+  - 🇨🇾 CY 06 - 公海节点
 rules:
 - MATCH,PROXIES

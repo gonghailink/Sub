@@ -6,14 +6,6 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - 公海节点
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇮 FI 02 - 公海节点
-  type: vless
   server: 95.216.27.15
   port: 2053
   uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
@@ -23,7 +15,20 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇫🇮 FI 02 - 公海节点
+  type: vless
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - 公海节点
   type: vless
   server: 95.216.27.15
@@ -47,21 +52,8 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 05 - 公海节点
-  type: vless
-  server: 45.144.234.157
-  port: 14430
-  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.144.234.157
-- name: 🇫🇮 FI 06 - 公海节点
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -72,15 +64,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 07 - 公海节点
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -91,8 +75,6 @@ proxy-groups:
   - 🇫🇮 FI 03 - 公海节点
   - 🇫🇮 FI 04 - 公海节点
   - 🇫🇮 FI 05 - 公海节点
-  - 🇫🇮 FI 06 - 公海节点
-  - 🇫🇮 FI 07 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -103,7 +85,5 @@ proxy-groups:
   - 🇫🇮 FI 03 - 公海节点
   - 🇫🇮 FI 04 - 公海节点
   - 🇫🇮 FI 05 - 公海节点
-  - 🇫🇮 FI 06 - 公海节点
-  - 🇫🇮 FI 07 - 公海节点
 rules:
 - MATCH,PROXIES
