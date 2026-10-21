@@ -20,18 +20,185 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇸🇪 SE 02 - 公海节点
   type: vless
-  server: 94.143.231.146
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE 03 - 公海节点
+  type: vless
+  server: 188.114.98.0
   port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sub.merky.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
     headers:
-      Host: 94.143.231.146
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 04 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: ?Telegram---TEHRANARGOfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 05 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 06 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 07 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 08 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: ?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 09 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 10 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: Tfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 11 - 公海节点
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---V2ray_confiig?edfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 12 - 公海节点
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 13 - 公海节点
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 14 - 公海节点
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
+    headers:
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +206,18 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - 公海节点
   - 🇸🇪 SE 02 - 公海节点
+  - 🇸🇪 SE 03 - 公海节点
+  - 🇸🇪 SE 04 - 公海节点
+  - 🇸🇪 SE 05 - 公海节点
+  - 🇸🇪 SE 06 - 公海节点
+  - 🇸🇪 SE 07 - 公海节点
+  - 🇸🇪 SE 08 - 公海节点
+  - 🇸🇪 SE 09 - 公海节点
+  - 🇸🇪 SE 10 - 公海节点
+  - 🇸🇪 SE 11 - 公海节点
+  - 🇸🇪 SE 12 - 公海节点
+  - 🇸🇪 SE 13 - 公海节点
+  - 🇸🇪 SE 14 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +225,17 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - 公海节点
   - 🇸🇪 SE 02 - 公海节点
+  - 🇸🇪 SE 03 - 公海节点
+  - 🇸🇪 SE 04 - 公海节点
+  - 🇸🇪 SE 05 - 公海节点
+  - 🇸🇪 SE 06 - 公海节点
+  - 🇸🇪 SE 07 - 公海节点
+  - 🇸🇪 SE 08 - 公海节点
+  - 🇸🇪 SE 09 - 公海节点
+  - 🇸🇪 SE 10 - 公海节点
+  - 🇸🇪 SE 11 - 公海节点
+  - 🇸🇪 SE 12 - 公海节点
+  - 🇸🇪 SE 13 - 公海节点
+  - 🇸🇪 SE 14 - 公海节点
 rules:
 - MATCH,PROXIES
