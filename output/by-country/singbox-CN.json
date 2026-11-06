@@ -7,8 +7,7 @@
       "outbounds": [
         "auto",
         "🇨🇳 CN 01 - 公海节点",
-        "🇨🇳 CN 02 - 公海节点",
-        "🇨🇳 CN 03 - 公海节点"
+        "🇨🇳 CN 02 - 公海节点"
       ]
     },
     {
@@ -16,8 +15,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇳 CN 01 - 公海节点",
-        "🇨🇳 CN 02 - 公海节点",
-        "🇨🇳 CN 03 - 公海节点"
+        "🇨🇳 CN 02 - 公海节点"
       ],
       "url": "https://www.google.com/generate_204"
     },
