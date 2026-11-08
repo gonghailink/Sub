@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇪 IE 01 - 公海节点
+- name: 🇱🇺 LU 01 - 公海节点
   type: ss
-  server: 83.141.92.138
-  port: 1080
+  server: 87.228.61.175
+  port: 1443
   cipher: chacha20-ietf-poly1305
-  password: WkKqrNHRxQXA-bkL2ztAylXw8mE_BYYs
+  password: tAGGzgRCi6W95UwG0qerf6
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇪 IE 01 - 公海节点
+  - 🇱🇺 LU 01 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇪 IE 01 - 公海节点
+  - 🇱🇺 LU 01 - 公海节点
 rules:
 - MATCH,PROXIES
