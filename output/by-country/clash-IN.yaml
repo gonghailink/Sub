@@ -20,6 +20,18 @@ proxies:
       Host: xray-bprkdwje-clever-comet-4.cloady.io
 - name: 🇮🇳 印度 (India) 02 - 公海节点
   type: vless
+  server: in.smrtai.top
+  port: 443
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 03 - 公海节点
+  type: vless
   server: 13.140.56.100
   port: 14430
   uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
@@ -31,18 +43,6 @@ proxies:
     path: /vless
     headers:
       Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 03 - 公海节点
-  type: vless
-  server: 178.212.35.198
-  port: 443
-  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 04 - 公海节点
   type: vless
   server: 194.61.31.126
@@ -57,30 +57,17 @@ proxies:
   client-fingerprint: random
 - name: 🇮🇳 印度 (India) 05 - 公海节点
   type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  server: in.smrtai.top
+  port: 443
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+  servername: www.cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 06 - 公海节点
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 07 - 公海节点
   type: vless
   server: 13.140.253.35
   port: 443
@@ -94,19 +81,7 @@ proxies:
     path: /27dbf143acdd7bca
     headers:
       Host: xray-bprkdwje-clever-comet-4.cloady.io
-- name: 🇮🇳 印度 (India) 08 - 公海节点
-  type: vless
-  server: in.smrtai.top
-  port: 443
-  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 09 - 公海节点
+- name: 🇮🇳 印度 (India) 07 - 公海节点
   type: vless
   server: 13.140.56.100
   port: 14430
@@ -119,7 +94,20 @@ proxies:
     path: /vless
     headers:
       Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 10 - 公海节点
+- name: 🇮🇳 印度 (India) 08 - 公海节点
+  type: vless
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
+- name: 🇮🇳 印度 (India) 09 - 公海节点
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -131,6 +119,19 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
   client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 10 - 公海节点
+  type: vless
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 11 - 公海节点
   type: vless
   server: 13.140.56.100
@@ -159,19 +160,29 @@ proxies:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 13 - 公海节点
   type: vless
-  server: 13.140.253.35
+  server: 178.212.35.198
   port: 443
-  uuid: f1d3c8af71c4ef75625fcf446aa2c15b
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xray-h0urp9tx-rapid-summit-2.cloady.io
-  network: ws
-  ws-opts:
-    path: /050334203cc522a3
-    headers:
-      Host: xray-h0urp9tx-rapid-summit-2.cloady.io
+  reality-opts:
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 14 - 公海节点
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 15 - 公海节点
   type: vless
   server: 13.140.253.35
   port: 443
@@ -185,31 +196,20 @@ proxies:
     path: /362b2b2c7197d648
     headers:
       Host: xray-m0642ki4-silver-nebula-10.cloady.io
-- name: 🇮🇳 印度 (India) 15 - 公海节点
+- name: 🇮🇳 印度 (India) 16 - 公海节点
   type: vless
-  server: in.smrtai.top
+  server: 13.140.253.35
   port: 443
-  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
+  uuid: f1d3c8af71c4ef75625fcf446aa2c15b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 16 - 公海节点
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  servername: xray-h0urp9tx-rapid-summit-2.cloady.io
   network: ws
   ws-opts:
-    path: /vless
+    path: /050334203cc522a3
     headers:
-      Host: 13.140.56.100
+      Host: xray-h0urp9tx-rapid-summit-2.cloady.io
 - name: 🇮🇳 印度 (India) 17 - 公海节点
   type: vless
   server: 122.176.216.52
