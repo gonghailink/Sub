@@ -5,32 +5,137 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - 公海节点
+  type: vless
+  server: 104.19.248.199
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 02 - 公海节点
+  type: ss
+  server: 57.129.83.85
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 03 - 公海节点
+  type: vless
+  server: base.hosamobenl.co.uk
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: base.hosamobenl.co.uk
+- name: 🇩🇪 德国 (Germany) 04 - 公海节点
+  type: vless
+  server: 103.31.4.160
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 05 - 公海节点
+  type: vless
+  server: 85.192.27.171
+  port: 2053
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
+- name: 🇩🇪 德国 (Germany) 06 - 公海节点
+  type: vless
+  server: 2.31.100.78
+  port: 13060
+  uuid: 679d0fcc-4c72-4073-8f1d-311b69ef72b5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 07 - 公海节点
+  type: vless
+  server: 190.93.247.95
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 08 - 公海节点
   type: ss
   server: 23.157.88.43
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇩🇪 德国 (Germany) 02 - 公海节点
+- name: 🇩🇪 德国 (Germany) 09 - 公海节点
   type: vless
-  server: s1.berluno.ir
-  port: 1155
-  uuid: 4e55449f-dcdd-41b4-a31e-dad1e3d420db
+  server: 104.24.21.163
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
-  servername: tgju.org
-  client-fingerprint: edge
-- name: 🇩🇪 德国 (Germany) 03 - 公海节点
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 10 - 公海节点
+  type: vless
+  server: 188.114.99.157
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   udp: true
-- name: 🇩🇪 德国 (Germany) 04 - 公海节点
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 11 - 公海节点
+  type: vless
+  server: 87.248.149.50
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: base.hosamobenl.co.uk
+- name: 🇩🇪 德国 (Germany) 12 - 公海节点
+  type: ss
+  server: 156.67.120.205
+  port: 51628
+  cipher: chacha20-ietf-poly1305
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  udp: true
+- name: 🇩🇪 德国 (Germany) 13 - 公海节点
   type: vless
   server: 159.223.20.232
   port: 443
@@ -44,7 +149,42 @@ proxies:
     path: /fp=chrome
     headers:
       Host: fs.qicai99.com
-- name: 🇩🇪 德国 (Germany) 05 - 公海节点
+- name: 🇩🇪 德国 (Germany) 14 - 公海节点
+  type: vless
+  server: 91.107.247.173
+  port: 2083
+  uuid: 0386df1b-7abd-4676-f3c6-d65d691023b9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.247.173
+- name: 🇩🇪 德国 (Germany) 15 - 公海节点
+  type: ss
+  server: 193.108.119.3
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 16 - 公海节点
+  type: vless
+  server: sino.bestsellers1.site
+  port: 2083
+  uuid: 0386df1b-7abd-4676-f3c6-d65d691023b9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 17 - 公海节点
   type: vless
   server: 57.129.41.216
   port: 80
@@ -57,49 +197,70 @@ proxies:
     path: /vless/
     headers:
       Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 06 - 公海节点
+- name: 🇩🇪 德国 (Germany) 18 - 公海节点
+  type: ss
+  server: 193.108.119.2
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 19 - 公海节点
   type: vless
-  server: 146.103.118.189
-  port: 443
-  uuid: 82382a00-3784-41e3-85d6-37f626263944
+  server: 162.159.236.61
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vpn.574ck.xyz
+  servername: moz.ar-marz.fun
   network: ws
   ws-opts:
-    path: /ws
+    path: /man
     headers:
-      Host: vpn.574ck.xyz
-- name: 🇩🇪 德国 (Germany) 07 - 公海节点
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 20 - 公海节点
   type: vless
-  server: 146.103.118.189
-  port: 443
-  uuid: 82382a00-3784-41e3-85d6-37f626263944
+  server: 172.67.110.86
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vpn.574ck.xyz
+  servername: moz.ar-marz.fun
   network: ws
   ws-opts:
-    path: /ws
+    path: /man
     headers:
-      Host: vpn.574ck.xyz
-- name: 🇩🇪 德国 (Germany) 08 - 公海节点
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 21 - 公海节点
   type: vless
-  server: 159.223.20.232
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  server: 188.114.96.246
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fs.qicai99.com
+  servername: moz.ar-marz.fun
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /man
     headers:
-      Host: fs.qicai99.com
-- name: 🇩🇪 德国 (Germany) 09 - 公海节点
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 22 - 公海节点
+  type: vless
+  server: 103.31.4.75
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 23 - 公海节点
   type: vless
   server: 177.202.73.151
   port: 443
@@ -113,148 +274,9 @@ proxies:
     path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
     headers:
       Host: lvi.su
-- name: 🇩🇪 德国 (Germany) 10 - 公海节点
-  type: vless
-  server: 91.107.247.173
-  port: 2083
-  uuid: 0386df1b-7abd-4676-f3c6-d65d691023b9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sino.bestsellers1.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 91.107.247.173
-- name: 🇩🇪 德国 (Germany) 11 - 公海节点
-  type: ss
-  server: 193.108.119.3
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 12 - 公海节点
-  type: vless
-  server: 159.223.20.232
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🇩🇪 德国 (Germany) 13 - 公海节点
-  type: vless
-  server: 87.248.149.50
-  port: 443
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: base.hosamobenl.co.uk
-- name: 🇩🇪 德国 (Germany) 14 - 公海节点
-  type: vless
-  server: 159.223.20.232
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🇩🇪 德国 (Germany) 15 - 公海节点
-  type: vless
-  server: cryptoventura.online
-  port: 443
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cryptoventura.online
-  network: ws
-  ws-opts:
-    path: /api/de3/live
-    headers:
-      Host: cryptoventura.online
-- name: 🇩🇪 德国 (Germany) 16 - 公海节点
-  type: ss
-  server: 185.176.204.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 17 - 公海节点
-  type: ss
-  server: 156.67.120.205
-  port: 51628
-  cipher: chacha20-ietf-poly1305
-  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
-  udp: true
-- name: 🇩🇪 德国 (Germany) 18 - 公海节点
-  type: vless
-  server: 87.248.149.50
-  port: 443
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: base.hosamobenl.co.uk
-- name: 🇩🇪 德国 (Germany) 19 - 公海节点
-  type: vless
-  server: 87.248.149.50
-  port: 443
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: base.hosamobenl.co.uk
-- name: 🇩🇪 德国 (Germany) 20 - 公海节点
-  type: ss
-  server: 57.129.83.85
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 21 - 公海节点
-  type: ss
-  server: 193.108.119.2
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 (Germany) 22 - 公海节点
-  type: vless
-  server: s1.berluno.ir
-  port: 1155
-  uuid: d07acc1a-c51d-4a1e-93d9-4753d29ae24b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
-  servername: tgju.org
-  client-fingerprint: edge
-- name: 🇩🇪 德国 (Germany) 23 - 公海节点
-  type: vless
-  server: base.hosamobenl.co.uk
-  port: 443
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: base.hosamobenl.co.uk
 - name: 🇩🇪 德国 (Germany) 24 - 公海节点
   type: vless
-  server: 193.233.129.97
+  server: 159.223.20.232
   port: 443
   uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
@@ -263,24 +285,31 @@ proxies:
   servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: fs.qicai99.com
 - name: 🇩🇪 德国 (Germany) 25 - 公海节点
   type: vless
-  server: 91.107.247.173
-  port: 2083
-  uuid: 0386df1b-7abd-4676-f3c6-d65d691023b9
+  server: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  port: 443
+  uuid: 51c5a070-39ff-43fd-ac53-597bb7e7ff3d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sino.bestsellers1.site
+  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /9dffa10cc2d3b317?ed=2560
     headers:
-      Host: 91.107.247.173
+      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
 - name: 🇩🇪 德国 (Germany) 26 - 公海节点
+  type: ss
+  server: 193.108.117.84
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 (Germany) 27 - 公海节点
   type: vless
   server: 188.225.37.175
   port: 443
@@ -294,7 +323,14 @@ proxies:
     path: /api/de3/live
     headers:
       Host: cryptoventura.online
-- name: 🇩🇪 德国 (Germany) 27 - 公海节点
+- name: 🇩🇪 德国 (Germany) 28 - 公海节点
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 29 - 公海节点
   type: vless
   server: 57.129.41.216
   port: 80
@@ -307,6 +343,129 @@ proxies:
     path: /vless/
     headers:
       Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 30 - 公海节点
+  type: vless
+  server: base.hosamobenl.co.uk
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: base.hosamobenl.co.uk
+- name: 🇩🇪 德国 (Germany) 31 - 公海节点
+  type: vless
+  server: 193.233.129.97
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fs.qicai99.com
+- name: 🇩🇪 德国 (Germany) 32 - 公海节点
+  type: vless
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
+- name: 🇩🇪 德国 (Germany) 33 - 公海节点
+  type: vless
+  server: 159.223.20.232
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
+- name: 🇩🇪 德国 (Germany) 34 - 公海节点
+  type: vless
+  server: 190.93.244.47
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 35 - 公海节点
+  type: vless
+  server: 159.223.20.232
+  port: 443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
+- name: 🇩🇪 德国 (Germany) 36 - 公海节点
+  type: vless
+  server: 103.31.4.75
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 37 - 公海节点
+  type: vless
+  server: 172.67.110.86
+  port: 8443
+  uuid: 9443badf-414f-4b12-b19a-7cc2c7431163
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: moz.ar-marz.fun
+  network: ws
+  ws-opts:
+    path: /man
+    headers:
+      Host: moz.ar-marz.fun
+- name: 🇩🇪 德国 (Germany) 38 - 公海节点
+  type: vless
+  server: 87.248.149.50
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: base.hosamobenl.co.uk
+- name: 🇩🇪 德国 (Germany) 39 - 公海节点
+  type: ss
+  server: 185.176.204.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -339,6 +498,18 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 25 - 公海节点
   - 🇩🇪 德国 (Germany) 26 - 公海节点
   - 🇩🇪 德国 (Germany) 27 - 公海节点
+  - 🇩🇪 德国 (Germany) 28 - 公海节点
+  - 🇩🇪 德国 (Germany) 29 - 公海节点
+  - 🇩🇪 德国 (Germany) 30 - 公海节点
+  - 🇩🇪 德国 (Germany) 31 - 公海节点
+  - 🇩🇪 德国 (Germany) 32 - 公海节点
+  - 🇩🇪 德国 (Germany) 33 - 公海节点
+  - 🇩🇪 德国 (Germany) 34 - 公海节点
+  - 🇩🇪 德国 (Germany) 35 - 公海节点
+  - 🇩🇪 德国 (Germany) 36 - 公海节点
+  - 🇩🇪 德国 (Germany) 37 - 公海节点
+  - 🇩🇪 德国 (Germany) 38 - 公海节点
+  - 🇩🇪 德国 (Germany) 39 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -371,5 +542,17 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 25 - 公海节点
   - 🇩🇪 德国 (Germany) 26 - 公海节点
   - 🇩🇪 德国 (Germany) 27 - 公海节点
+  - 🇩🇪 德国 (Germany) 28 - 公海节点
+  - 🇩🇪 德国 (Germany) 29 - 公海节点
+  - 🇩🇪 德国 (Germany) 30 - 公海节点
+  - 🇩🇪 德国 (Germany) 31 - 公海节点
+  - 🇩🇪 德国 (Germany) 32 - 公海节点
+  - 🇩🇪 德国 (Germany) 33 - 公海节点
+  - 🇩🇪 德国 (Germany) 34 - 公海节点
+  - 🇩🇪 德国 (Germany) 35 - 公海节点
+  - 🇩🇪 德国 (Germany) 36 - 公海节点
+  - 🇩🇪 德国 (Germany) 37 - 公海节点
+  - 🇩🇪 德国 (Germany) 38 - 公海节点
+  - 🇩🇪 德国 (Germany) 39 - 公海节点
 rules:
 - MATCH,PROXIES
