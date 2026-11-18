@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - 公海节点
   type: vless
-  server: 178.212.35.198
+  server: in.smrtai.top
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 02 - 公海节点
   type: vless
   server: 13.140.56.100
@@ -57,7 +57,7 @@ proxies:
       Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 05 - 公海节点
   type: vless
-  server: in.smrtai.top
+  server: 178.212.35.198
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -66,7 +66,7 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 06 - 公海节点
   type: vless
   server: 13.140.56.100
@@ -104,7 +104,7 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
