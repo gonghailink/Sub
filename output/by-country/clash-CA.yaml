@@ -6,17 +6,17 @@ log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - 公海节点
   type: ss
-  server: 51.222.141.125
+  server: 51.222.12.127
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 02 - 公海节点
   type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  server: 134.195.198.163
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: PmCqK98WqhSC
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 03 - 公海节点
   type: vmess
@@ -50,16 +50,6 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 06 - 公海节点
   type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 07 - 公海节点
-  type: vmess
   server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
@@ -68,15 +58,20 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 08 - 公海节点
-  type: vless
-  server: 66.163.113.9
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- name: 🇨🇦 加拿大 (Canada) 07 - 公海节点
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kuruish.org
+- name: 🇨🇦 加拿大 (Canada) 08 - 公海节点
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 09 - 公海节点
   type: vmess
   server: 134.195.196.211
@@ -88,14 +83,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 10 - 公海节点
-  type: vless
-  server: 66.163.113.9
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: kuruish.org
 - name: 🇨🇦 加拿大 (Canada) 11 - 公海节点
   type: vmess
   server: 23.162.200.198
@@ -108,7 +104,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 12 - 公海节点
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -117,15 +113,18 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 13 - 公海节点
-  type: ss
-  server: 134.195.198.163
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: PmCqK98WqhSC
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 14 - 公海节点
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -144,33 +143,35 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 16 - 公海节点
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - 公海节点
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 18 - 公海节点
-  type: vless
-  server: 148.113.196.75
-  port: 8443
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
-  udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ov-canada1.09vpn.com
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 148.113.196.75
+- name: 🇨🇦 加拿大 (Canada) 17 - 公海节点
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 18 - 公海节点
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 19 - 公海节点
   type: vmess
   server: 134.195.196.211
@@ -192,12 +193,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 21 - 公海节点
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 22 - 公海节点
   type: vmess
   server: 134.195.196.211
@@ -219,6 +223,13 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 24 - 公海节点
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 25 - 公海节点
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -228,13 +239,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 25 - 公海节点
-  type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 26 - 公海节点
   type: vmess
   server: 134.195.196.211
@@ -257,7 +261,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 28 - 公海节点
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -276,25 +280,33 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 30 - 公海节点
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 66.163.113.9
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: kuruish.org
 - name: 🇨🇦 加拿大 (Canada) 31 - 公海节点
   type: ss
-  server: 51.79.85.185
-  port: 8118
+  server: 51.222.141.125
+  port: 445
   cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
+  password: zDNVedRFPQexG9v
   udp: true
 - name: 🇨🇦 加拿大 (Canada) 32 - 公海节点
+  type: vless
+  server: 66.163.113.9
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: kuruish.org
+- name: 🇨🇦 加拿大 (Canada) 33 - 公海节点
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -302,13 +314,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 33 - 公海节点
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 34 - 公海节点
   type: vmess
   server: 134.195.196.211
@@ -320,33 +325,20 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 35 - 公海节点
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 148.113.196.75
+  port: 8443
+  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: ov-canada1.09vpn.com
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: 148.113.196.75
 - name: 🇨🇦 加拿大 (Canada) 36 - 公海节点
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 37 - 公海节点
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 38 - 公海节点
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -397,8 +389,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 34 - 公海节点
   - 🇨🇦 加拿大 (Canada) 35 - 公海节点
   - 🇨🇦 加拿大 (Canada) 36 - 公海节点
-  - 🇨🇦 加拿大 (Canada) 37 - 公海节点
-  - 🇨🇦 加拿大 (Canada) 38 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -440,7 +430,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 34 - 公海节点
   - 🇨🇦 加拿大 (Canada) 35 - 公海节点
   - 🇨🇦 加拿大 (Canada) 36 - 公海节点
-  - 🇨🇦 加拿大 (Canada) 37 - 公海节点
-  - 🇨🇦 加拿大 (Canada) 38 - 公海节点
 rules:
 - MATCH,PROXIES

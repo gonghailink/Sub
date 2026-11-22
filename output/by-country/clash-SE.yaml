@@ -5,32 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - 公海节点
-  type: vmess
-  server: sonau.yaremonta.loc.cc
-  port: 8081
-  uuid: c5468915-f60c-4134-b4d3-eb24501d7c65
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 138.199.55.243
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: ''
 - name: 🇸🇪 SE 02 - 公海节点
-  type: vmess
-  server: 62.93.166.184
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇸🇪 SE 03 - 公海节点
   type: vless
   server: 5.178.109.174
   port: 14430
@@ -43,26 +24,6 @@ proxies:
     path: /vless
     headers:
       Host: 5.178.109.174
-- name: 🇸🇪 SE 04 - 公海节点
-  type: vless
-  server: sonau.yaremonta.loc.cc
-  port: 8080
-  uuid: c5468915-f60c-4134-b4d3-eb24501d7c65
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: sonau.yaremonta.loc.cc
-- name: 🇸🇪 SE 05 - 公海节点
-  type: ss
-  server: 138.199.55.243
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,9 +31,6 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - 公海节点
   - 🇸🇪 SE 02 - 公海节点
-  - 🇸🇪 SE 03 - 公海节点
-  - 🇸🇪 SE 04 - 公海节点
-  - 🇸🇪 SE 05 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -80,8 +38,5 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - 公海节点
   - 🇸🇪 SE 02 - 公海节点
-  - 🇸🇪 SE 03 - 公海节点
-  - 🇸🇪 SE 04 - 公海节点
-  - 🇸🇪 SE 05 - 公海节点
 rules:
 - MATCH,PROXIES
