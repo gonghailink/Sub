@@ -5,8 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - 公海节点
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 02 - 公海节点
   type: vless
-  server: 188.114.97.6
+  server: 188.114.98.0
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -18,60 +25,79 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 02 - 公海节点
-  type: vless
-  server: 94.177.131.113
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kuruish.org
 - name: 🇯🇵 日本 (Japan) 03 - 公海节点
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 04 - 公海节点
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 05 - 公海节点
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 06 - 公海节点
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 07 - 公海节点
   type: vless
-  server: 103.201.130.126
+  server: 162.159.254.3
   port: 443
-  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tt-9nz.pages.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /item/favouritesfp=chrome
+    path: /tyxyws
     headers:
-      Host: tt-9nz.pages.dev
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 04 - 公海节点
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 05 - 公海节点
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 06 - 公海节点
+  type: vless
+  server: 43.129.80.179
+  port: 8443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 07 - 公海节点
+  type: vless
+  server: 43.170.8.95
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 08 - 公海节点
   type: vless
-  server: 172.67.156.147
+  server: 104.21.70.21
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -84,22 +110,36 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 09 - 公海节点
-  type: ss
-  server: 149.22.87.240
+  type: vless
+  server: 45.129.8.204
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 10 - 公海节点
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vless
+  server: 103.201.131.202
+  port: 2053
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 11 - 公海节点
   type: vless
-  server: 104.19.12.94
+  server: 185.222.43.175
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -113,6 +153,90 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 12 - 公海节点
   type: vless
+  server: 152.69.200.216
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 13 - 公海节点
+  type: vless
+  server: 104.16.10.56
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 14 - 公海节点
+  type: vless
+  server: 154.31.114.162
+  port: 8443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 15 - 公海节点
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 16 - 公海节点
+  type: vless
+  server: 104.24.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 17 - 公海节点
+  type: vless
+  server: 104.16.10.2
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 18 - 公海节点
+  type: vless
   server: 172.64.154.113
   port: 8443
   uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
@@ -125,35 +249,336 @@ proxies:
     path: /proxyip=ProxyIP.JP.CMLiussss.net
     headers:
       Host: freeceshi6.frii.site
-- name: 🇯🇵 日本 (Japan) 13 - 公海节点
-  type: vless
-  server: 103.201.130.126
+- name: 🇯🇵 日本 (Japan) 19 - 公海节点
+  type: ss
+  server: 149.22.87.204
   port: 443
-  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 20 - 公海节点
+  type: vless
+  server: 104.16.10.56
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tt-9nz.pages.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /item/favourites
+    path: /tyxyws
     headers:
-      Host: tt-9nz.pages.dev
-- name: 🇯🇵 日本 (Japan) 14 - 公海节点
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 21 - 公海节点
   type: vless
-  server: 188.114.98.0
+  server: 104.24.31.89
   port: 443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: freeceshi6.frii.site
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
+    path: /tyxyws
     headers:
-      Host: freeceshi6.frii.site
-- name: 🇯🇵 日本 (Japan) 15 - 公海节点
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 22 - 公海节点
+  type: vless
+  server: 104.16.10.135
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 23 - 公海节点
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 24 - 公海节点
+  type: vless
+  server: 172.64.190.13
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 25 - 公海节点
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 26 - 公海节点
+  type: vless
+  server: 104.17.210.74
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 27 - 公海节点
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 28 - 公海节点
+  type: vless
+  server: 38.244.5.123
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 29 - 公海节点
+  type: vless
+  server: 154.31.114.162
+  port: 8443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 30 - 公海节点
+  type: vless
+  server: 104.19.12.94
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 31 - 公海节点
+  type: vless
+  server: 104.21.0.87
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 32 - 公海节点
+  type: vless
+  server: 104.16.10.72
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 33 - 公海节点
+  type: vless
+  server: 104.19.164.155
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 34 - 公海节点
+  type: vless
+  server: 104.16.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 35 - 公海节点
+  type: vless
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 36 - 公海节点
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 37 - 公海节点
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 38 - 公海节点
+  type: vless
+  server: 104.16.10.104
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 39 - 公海节点
+  type: vless
+  server: 104.21.219.160
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 40 - 公海节点
+  type: vless
+  server: 104.21.219.160
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 41 - 公海节点
+  type: vless
+  server: 104.19.48.107
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 42 - 公海节点
+  type: vless
+  server: 154.40.36.220
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 43 - 公海节点
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 44 - 公海节点
   type: vless
   server: 94.177.131.113
   port: 443
@@ -162,41 +587,353 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: kuruish.org
-- name: 🇯🇵 日本 (Japan) 16 - 公海节点
+- name: 🇯🇵 日本 (Japan) 45 - 公海节点
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 46 - 公海节点
+  type: vless
+  server: 104.16.111.195
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 47 - 公海节点
+  type: vless
+  server: 104.19.33.25
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 48 - 公海节点
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 49 - 公海节点
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 50 - 公海节点
+  type: vless
+  server: 104.24.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 51 - 公海节点
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 52 - 公海节点
+  type: vless
+  server: 45.153.245.217
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 53 - 公海节点
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 54 - 公海节点
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 55 - 公海节点
+  type: vless
+  server: 45.153.245.181
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 56 - 公海节点
   type: ss
   server: 149.22.87.204
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 17 - 公海节点
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+- name: 🇯🇵 日本 (Japan) 57 - 公海节点
+  type: vless
+  server: 94.177.131.113
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
-- name: 🇯🇵 日本 (Japan) 18 - 公海节点
+  tls: true
+  skip-cert-verify: true
+  servername: kuruish.org
+- name: 🇯🇵 日本 (Japan) 58 - 公海节点
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 59 - 公海节点
+  type: vless
+  server: 43.170.8.95
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 60 - 公海节点
+  type: vless
+  server: 104.16.10.234
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 61 - 公海节点
   type: ss
   server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 19 - 公海节点
+- name: 🇯🇵 日本 (Japan) 62 - 公海节点
   type: vless
-  server: 188.114.98.0
+  server: 104.19.164.155
   port: 443
-  uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: freeceshi6.frii.site
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /proxyip=ProxyIP.JP.CMLiussss.net
+    path: /tyxyws
     headers:
-      Host: freeceshi6.frii.site
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 63 - 公海节点
+  type: vmess
+  server: 168.110.63.247
+  port: 8081
+  uuid: c3bde296-8e44-4b8c-a325-577d5b3cc7c8
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 168.110.63.247
+- name: 🇯🇵 日本 (Japan) 64 - 公海节点
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 65 - 公海节点
+  type: ss
+  server: 168.138.205.100
+  port: 53758
+  cipher: aes-128-gcm
+  password: Bwlqh7GcFB
+  udp: true
+- name: 🇯🇵 日本 (Japan) 66 - 公海节点
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 67 - 公海节点
+  type: vless
+  server: 185.200.66.193
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 68 - 公海节点
+  type: vmess
+  server: 161.33.20.255
+  port: 8880
+  uuid: e0856508-d693-450a-a099-455091dc4f25
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: e0856508-d693-450a-a099-455091dc4f25-vm
+    headers:
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 69 - 公海节点
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 70 - 公海节点
+  type: vless
+  server: 104.27.46.35
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 71 - 公海节点
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 72 - 公海节点
+  type: vless
+  server: 104.21.0.87
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -221,6 +958,59 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 17 - 公海节点
   - 🇯🇵 日本 (Japan) 18 - 公海节点
   - 🇯🇵 日本 (Japan) 19 - 公海节点
+  - 🇯🇵 日本 (Japan) 20 - 公海节点
+  - 🇯🇵 日本 (Japan) 21 - 公海节点
+  - 🇯🇵 日本 (Japan) 22 - 公海节点
+  - 🇯🇵 日本 (Japan) 23 - 公海节点
+  - 🇯🇵 日本 (Japan) 24 - 公海节点
+  - 🇯🇵 日本 (Japan) 25 - 公海节点
+  - 🇯🇵 日本 (Japan) 26 - 公海节点
+  - 🇯🇵 日本 (Japan) 27 - 公海节点
+  - 🇯🇵 日本 (Japan) 28 - 公海节点
+  - 🇯🇵 日本 (Japan) 29 - 公海节点
+  - 🇯🇵 日本 (Japan) 30 - 公海节点
+  - 🇯🇵 日本 (Japan) 31 - 公海节点
+  - 🇯🇵 日本 (Japan) 32 - 公海节点
+  - 🇯🇵 日本 (Japan) 33 - 公海节点
+  - 🇯🇵 日本 (Japan) 34 - 公海节点
+  - 🇯🇵 日本 (Japan) 35 - 公海节点
+  - 🇯🇵 日本 (Japan) 36 - 公海节点
+  - 🇯🇵 日本 (Japan) 37 - 公海节点
+  - 🇯🇵 日本 (Japan) 38 - 公海节点
+  - 🇯🇵 日本 (Japan) 39 - 公海节点
+  - 🇯🇵 日本 (Japan) 40 - 公海节点
+  - 🇯🇵 日本 (Japan) 41 - 公海节点
+  - 🇯🇵 日本 (Japan) 42 - 公海节点
+  - 🇯🇵 日本 (Japan) 43 - 公海节点
+  - 🇯🇵 日本 (Japan) 44 - 公海节点
+  - 🇯🇵 日本 (Japan) 45 - 公海节点
+  - 🇯🇵 日本 (Japan) 46 - 公海节点
+  - 🇯🇵 日本 (Japan) 47 - 公海节点
+  - 🇯🇵 日本 (Japan) 48 - 公海节点
+  - 🇯🇵 日本 (Japan) 49 - 公海节点
+  - 🇯🇵 日本 (Japan) 50 - 公海节点
+  - 🇯🇵 日本 (Japan) 51 - 公海节点
+  - 🇯🇵 日本 (Japan) 52 - 公海节点
+  - 🇯🇵 日本 (Japan) 53 - 公海节点
+  - 🇯🇵 日本 (Japan) 54 - 公海节点
+  - 🇯🇵 日本 (Japan) 55 - 公海节点
+  - 🇯🇵 日本 (Japan) 56 - 公海节点
+  - 🇯🇵 日本 (Japan) 57 - 公海节点
+  - 🇯🇵 日本 (Japan) 58 - 公海节点
+  - 🇯🇵 日本 (Japan) 59 - 公海节点
+  - 🇯🇵 日本 (Japan) 60 - 公海节点
+  - 🇯🇵 日本 (Japan) 61 - 公海节点
+  - 🇯🇵 日本 (Japan) 62 - 公海节点
+  - 🇯🇵 日本 (Japan) 63 - 公海节点
+  - 🇯🇵 日本 (Japan) 64 - 公海节点
+  - 🇯🇵 日本 (Japan) 65 - 公海节点
+  - 🇯🇵 日本 (Japan) 66 - 公海节点
+  - 🇯🇵 日本 (Japan) 67 - 公海节点
+  - 🇯🇵 日本 (Japan) 68 - 公海节点
+  - 🇯🇵 日本 (Japan) 69 - 公海节点
+  - 🇯🇵 日本 (Japan) 70 - 公海节点
+  - 🇯🇵 日本 (Japan) 71 - 公海节点
+  - 🇯🇵 日本 (Japan) 72 - 公海节点
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -245,5 +1035,58 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 17 - 公海节点
   - 🇯🇵 日本 (Japan) 18 - 公海节点
   - 🇯🇵 日本 (Japan) 19 - 公海节点
+  - 🇯🇵 日本 (Japan) 20 - 公海节点
+  - 🇯🇵 日本 (Japan) 21 - 公海节点
+  - 🇯🇵 日本 (Japan) 22 - 公海节点
+  - 🇯🇵 日本 (Japan) 23 - 公海节点
+  - 🇯🇵 日本 (Japan) 24 - 公海节点
+  - 🇯🇵 日本 (Japan) 25 - 公海节点
+  - 🇯🇵 日本 (Japan) 26 - 公海节点
+  - 🇯🇵 日本 (Japan) 27 - 公海节点
+  - 🇯🇵 日本 (Japan) 28 - 公海节点
+  - 🇯🇵 日本 (Japan) 29 - 公海节点
+  - 🇯🇵 日本 (Japan) 30 - 公海节点
+  - 🇯🇵 日本 (Japan) 31 - 公海节点
+  - 🇯🇵 日本 (Japan) 32 - 公海节点
+  - 🇯🇵 日本 (Japan) 33 - 公海节点
+  - 🇯🇵 日本 (Japan) 34 - 公海节点
+  - 🇯🇵 日本 (Japan) 35 - 公海节点
+  - 🇯🇵 日本 (Japan) 36 - 公海节点
+  - 🇯🇵 日本 (Japan) 37 - 公海节点
+  - 🇯🇵 日本 (Japan) 38 - 公海节点
+  - 🇯🇵 日本 (Japan) 39 - 公海节点
+  - 🇯🇵 日本 (Japan) 40 - 公海节点
+  - 🇯🇵 日本 (Japan) 41 - 公海节点
+  - 🇯🇵 日本 (Japan) 42 - 公海节点
+  - 🇯🇵 日本 (Japan) 43 - 公海节点
+  - 🇯🇵 日本 (Japan) 44 - 公海节点
+  - 🇯🇵 日本 (Japan) 45 - 公海节点
+  - 🇯🇵 日本 (Japan) 46 - 公海节点
+  - 🇯🇵 日本 (Japan) 47 - 公海节点
+  - 🇯🇵 日本 (Japan) 48 - 公海节点
+  - 🇯🇵 日本 (Japan) 49 - 公海节点
+  - 🇯🇵 日本 (Japan) 50 - 公海节点
+  - 🇯🇵 日本 (Japan) 51 - 公海节点
+  - 🇯🇵 日本 (Japan) 52 - 公海节点
+  - 🇯🇵 日本 (Japan) 53 - 公海节点
+  - 🇯🇵 日本 (Japan) 54 - 公海节点
+  - 🇯🇵 日本 (Japan) 55 - 公海节点
+  - 🇯🇵 日本 (Japan) 56 - 公海节点
+  - 🇯🇵 日本 (Japan) 57 - 公海节点
+  - 🇯🇵 日本 (Japan) 58 - 公海节点
+  - 🇯🇵 日本 (Japan) 59 - 公海节点
+  - 🇯🇵 日本 (Japan) 60 - 公海节点
+  - 🇯🇵 日本 (Japan) 61 - 公海节点
+  - 🇯🇵 日本 (Japan) 62 - 公海节点
+  - 🇯🇵 日本 (Japan) 63 - 公海节点
+  - 🇯🇵 日本 (Japan) 64 - 公海节点
+  - 🇯🇵 日本 (Japan) 65 - 公海节点
+  - 🇯🇵 日本 (Japan) 66 - 公海节点
+  - 🇯🇵 日本 (Japan) 67 - 公海节点
+  - 🇯🇵 日本 (Japan) 68 - 公海节点
+  - 🇯🇵 日本 (Japan) 69 - 公海节点
+  - 🇯🇵 日本 (Japan) 70 - 公海节点
+  - 🇯🇵 日本 (Japan) 71 - 公海节点
+  - 🇯🇵 日本 (Japan) 72 - 公海节点
 rules:
 - MATCH,PROXIES
