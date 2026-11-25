@@ -20,13 +20,16 @@ proxies:
       Host: 147.45.221.225
 - name: 🇷🇺 俄罗斯 (Russia) 02 - 公海节点
   type: vless
-  server: 185.151.241.22
+  server: 195.206.235.232
   port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: mrhytymqyorzvzgwoh.fcloudservices.site
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 03 - 公海节点
   type: vless
   server: 136.148.83.70
@@ -38,15 +41,6 @@ proxies:
   servername: aszbk-ru-78dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 04 - 公海节点
   type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 05 - 公海节点
-  type: vless
   server: 136.148.83.70
   port: 443
   uuid: 00000000-0000-0001-0000-000000000000
@@ -54,29 +48,38 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: aszbk-ru-78dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 06 - 公海节点
+- name: 🇷🇺 俄罗斯 (Russia) 05 - 公海节点
   type: vless
   server: 136.148.83.69
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 07 - 公海节点
+- name: 🇷🇺 俄罗斯 (Russia) 06 - 公海节点
   type: vless
-  server: 147.45.175.81
+  server: 147.45.221.225
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xsru2.freeddns.org
+  servername: nl.lucheeebezlimitnoekino.stream
   network: ws
   ws-opts:
-    path: /wsru
+    path: /media/ws/
     headers:
-      Host: xsru2.freeddns.org
+      Host: 147.45.221.225
+- name: 🇷🇺 俄罗斯 (Russia) 07 - 公海节点
+  type: vless
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wccfu-ru-79dc.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select
